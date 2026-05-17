@@ -113,22 +113,22 @@ h1{
 
 <div class="container">
 
-<h1>SYNAPTECH ACCESS NODE</h1>
+<h1>PROJECT PANTHEON</h1>
 
 <div class="text" id="typed"></div>
 
 <div class="terms">
-TERMS OF ACCESS (SIMULATION DATA):<br><br>
-- User may experience cognitive dissonance<br>
-- Memory instability may occur during interaction<br>
-- Emotional responses are not monitored<br>
-- Exit of protocol is not guaranteed<br>
-- Synaptech assumes no responsibility for perception distortion<br>
+TERMOS DE ACESSO:<br><br>
+- O usuário pode experimentar dissonância cognitiva<br>
+- Instabilidade de memória pode ocorrer durante a interação<br>
+- Respostas emocionais não são monitoradas<br>
+- A saída do protocolo não é garantida<br>
+- A Synaptech não assume responsabilidade por distorções de percepção<br>
 </div>
 
 <div class="checkbox">
 <input type="checkbox" id="agree" onclick="toggleBtn()">
-<label for="agree">I have read and accept the terms above</label>
+<label for="agree">Eu li e aceito os termos citados</label>
 </div>
 
 <button class="btn" id="btn" onclick="aceitar()">
@@ -138,15 +138,28 @@ ACEITAR
 </div>
 
 <script>
-const text = `Selecione apenas indivíduos considerados capacitados e aptos a prosseguir com os enigmas subsequentes.
+const text = `Saudações.
 
-Não nos responsabilizamos por quaisquer danos, consequências ou efeitos decorrentes do percurso. Você está aqui por conta própria. Lembre-se disso.
+Se você está aqui, significa que conseguiu ultrapassar o primeiro nível.
+
+Nível 0: trivial.
+Presumimos que isso não tenha sido um desafio para você... certo?
+
+Selecionamos apenas indivíduos considerados capacitados e aptos a prosseguir com os enigmas subsequentes.
+
+Este ambiente não é um jogo comum. Ele responde às suas ações.
+
+Não nos responsabilizamos por quaisquer efeitos, consequências ou interpretações decorrentes do percurso.
+Você está aqui por conta própria. Lembre-se disso.
 
 Você está prestes a participar de um ARG.
+
 Ao prosseguir, você declara ciência e aceitação dos termos abaixo.
 
-O caminho não terá volta.`;
+O caminho não terá volta.
 
+(Se chegou até aqui sem dificuldade, o próximo nível provavelmente será mais interessante para você.)`;
+  
 let i = 0;
 const speed = 25;
 
@@ -182,7 +195,7 @@ function aceitar(){
   setTimeout(() => {
     glitch.classList.remove("active");
 
-    window.location.href = "https://wa.me/55SEUNUMEROAQUI?text=I%20accepted%20the%20protocol";
+    window.location.href = "https://chat.whatsapp.com/C8thwp7ON5mJSQxvdm6O9t";
 
   }, 800);
 }
